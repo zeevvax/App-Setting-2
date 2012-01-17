@@ -19,7 +19,7 @@
 @synthesize favoriteGameLabel;
 @synthesize favoriteExcuseLabel;
 @synthesize favoriteSinLabel;
-
+// adding a comment to test source control
 -(void) refreshFields{
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     self.usernameLabel.text = [defaults objectForKey:kUsernameKey];
