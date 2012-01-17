@@ -16,6 +16,10 @@
 		606DC005147EE7EF0028117F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 606DC003147EE7EF0028117F /* MainStoryboard.storyboard */; };
 		606DC008147EE7EF0028117F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 606DC007147EE7EF0028117F /* MainViewController.m */; };
 		606DC00B147EE7EF0028117F /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 606DC00A147EE7EF0028117F /* FlipsideViewController.m */; };
+		606DC012147EE8620028117F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 606DC011147EE8620028117F /* icon.png */; };
+		606DC014147EE87D0028117F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 606DC013147EE87C0028117F /* Settings.bundle */; };
+		606DC017147EECC70028117F /* rabbit.png in Resources */ = {isa = PBXBuildFile; fileRef = 606DC015147EECC70028117F /* rabbit.png */; };
+		606DC018147EECC70028117F /* turtle.png in Resources */ = {isa = PBXBuildFile; fileRef = 606DC016147EECC70028117F /* turtle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,17 +27,21 @@
 		606DBFF1147EE7EF0028117F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		606DBFF3147EE7EF0028117F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		606DBFF5147EE7EF0028117F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		606DBFF9147EE7EF0028117F /* App Setting 2-Info.plist */ = {isa = PBXFileReference; path = "App Setting 2-Info.plist"; sourceTree = "<group>"; };
+		606DBFF9147EE7EF0028117F /* App Setting 2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "App Setting 2-Info.plist"; sourceTree = "<group>"; };
 		606DBFFB147EE7EF0028117F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606DBFFD147EE7EF0028117F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		606DBFFF147EE7EF0028117F /* App Setting 2-Prefix.pch */ = {isa = PBXFileReference; path = "App Setting 2-Prefix.pch"; sourceTree = "<group>"; };
-		606DC000147EE7EF0028117F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		606DBFFF147EE7EF0028117F /* App Setting 2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App Setting 2-Prefix.pch"; sourceTree = "<group>"; };
+		606DC000147EE7EF0028117F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		606DC001147EE7EF0028117F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		606DC004147EE7EF0028117F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		606DC006147EE7EF0028117F /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		606DC006147EE7EF0028117F /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		606DC007147EE7EF0028117F /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		606DC009147EE7EF0028117F /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		606DC009147EE7EF0028117F /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		606DC00A147EE7EF0028117F /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		606DC011147EE8620028117F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		606DC013147EE87C0028117F /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		606DC015147EECC70028117F /* rabbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rabbit.png; sourceTree = "<group>"; };
+		606DC016147EECC70028117F /* turtle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turtle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,11 @@
 		606DBFF8147EE7EF0028117F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				606DC015147EECC70028117F /* rabbit.png */,
+				606DC016147EECC70028117F /* turtle.png */,
 				606DBFF9147EE7EF0028117F /* App Setting 2-Info.plist */,
+				606DC013147EE87C0028117F /* Settings.bundle */,
+				606DC011147EE8620028117F /* icon.png */,
 				606DBFFA147EE7EF0028117F /* InfoPlist.strings */,
 				606DBFFD147EE7EF0028117F /* main.m */,
 				606DBFFF147EE7EF0028117F /* App Setting 2-Prefix.pch */,
@@ -156,6 +168,10 @@
 			files = (
 				606DBFFC147EE7EF0028117F /* InfoPlist.strings in Resources */,
 				606DC005147EE7EF0028117F /* MainStoryboard.storyboard in Resources */,
+				606DC012147EE8620028117F /* icon.png in Resources */,
+				606DC014147EE87D0028117F /* Settings.bundle in Resources */,
+				606DC017147EECC70028117F /* rabbit.png in Resources */,
+				606DC018147EECC70028117F /* turtle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

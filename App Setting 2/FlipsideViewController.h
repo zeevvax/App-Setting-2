@@ -17,7 +17,12 @@
 @interface FlipsideViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet id <FlipsideViewControllerDelegate> delegate;
+@property (nonatomic, strong) IBOutlet UISwitch *engineSwitch;
+@property (nonatomic, strong) IBOutlet UISlider *warpFactorSlider;
 
+-(void) refreshFields;
+-(IBAction)tochEngineSwitch:(id)sender;
+-(IBAction)touchWarpSlider:(id)sender;
 - (IBAction)done:(id)sender;
 
 @end
